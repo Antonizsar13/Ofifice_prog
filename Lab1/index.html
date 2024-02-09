@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="main.css" /> 
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="topInscription" >
+        <div style="margin: 4px;">
+            Товары
+        </div>
+    </div>
+    <div class = "teapotsBlock">
+        <canvas class="teapot" id="teapotshow1" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow2" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow3" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow4" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow5" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow6" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow7" hidden="False">
+        </canvas>
+        <canvas class="teapot" id="teapotshow8" hidden="False">
+        </canvas>
+    </div>
+
+    <div class="topInscription" >
+        <div style="margin: 4px">
+            Число Товаров:
+            <input type="number" min="0" max="8" value="4" onchange="countTexno(this.value)">
+        </div>
+    </div>
+
+    <div class="blockButton">
+        <div>
+            <input id="texnoSwitch" onclick="texnoSwith()"  class="buttons" type="button" value="Показать технику">
+            <div id="textTexno" class="textInfoTeapots">Нету</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
