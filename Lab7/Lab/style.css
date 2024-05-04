@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(237, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_div {
+    width: 900px;
+    padding: 5px;
+    border: 1px solid rgb(93, 93, 255);
+    background-color: antiquewhite;
+    
+}
+
+.head_div {
+    background-color: rgb(213, 213, 255);
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+}
+
+.img_div {
+    margin: 5px;
+    margin-right: 0px;
+    background-color: rgb(157, 157, 255);
+    width: 70px;
+    height: 70px;
+}
+
+.text_div {
+    margin: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgb(157, 157, 255);
+    display: flex;
+    align-items: center;
+}
+
+.img_zag {
+    width: 70px;
+    height: 70px;
+}
+
+.text_mini_div {
+    background-color: rgb(157, 157, 255);
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.div_obsh {
+    margin: 5px;
+    background-color: rgb(157, 157, 255);
+    display: flex;
+    position: relative;
+    width: 100%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.error {
+    background-color: brown;
+    width: 200px;
+    border: 1px solid black;
+    color: white;
+}
+
+
+select {
+    width: 100%;
+    background-color: beige;
+    border-radius: 20px;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.error_mes {
+    background-color: brown;
+    color: white;
+}
+
+.good_mes {
+    background-color: green;
+    width: 200px;
+    color: white;
+}
+
+
+.btn-new {
+    border-radius: 10px;
+    display: block;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+    min-width: 200px;
+    min-height: 25px;
+    text-align: center;
+    font-size: larger;
+}
+
+.btn-new:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3C82F8;
+}
