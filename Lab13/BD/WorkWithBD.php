@@ -17,7 +17,7 @@ $checkConnect = function () use ($ConnectOtvet) {
 };
 
 $getDate = function () use ($mysqli) {
-    $query_view = "SELECT tname, kod, date_p, price, kol_vo, (price*kol_vo) `all_tovare`, photo FROM `eltovary` order by kod;";
+    $query_view = "SELECT * FROM sotr sot INNER JOIN otdels otd on otd.idOtdel = sot.Otdel order by otd.NameOtdel;";
     $res_view = $mysqli->query($query_view);
 
     if (!$res_view) {

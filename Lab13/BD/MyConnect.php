@@ -9,7 +9,7 @@ function MyConnectOtvet()
   global $mysqli;
 
   $db_host       = 'localhost';
-  $db_name       = 'base_date_6sem';
+  $db_name       = 'sotrzarpl';
   $db_username   = 'root';
   $db_password   = '';
   $ConnectOtvet  = true;
